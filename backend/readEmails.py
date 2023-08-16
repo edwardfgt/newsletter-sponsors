@@ -33,9 +33,9 @@ for message in messages:
     matching_newsletter = None
 
     
-    for newsletter_email in newsletters.email_from_mapping:
+    for newsletter_email in newsletters.all_newsletters:
         if from_email.lower() in newsletter_email.lower():
-            matching_newsletter = newsletters.email_from_mapping[newsletter_email]
+            matching_newsletter = newsletters.all_newsletters[newsletter_email]
             print(matching_newsletter)
             break
 
