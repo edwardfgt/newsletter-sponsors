@@ -2,6 +2,8 @@ from simplegmail import Gmail
 from simplegmail.query import construct_query
 from pymongo.mongo_client import MongoClient
 import config
+import newsletters
+import re
 
 
 uri = f"mongodb+srv://Edward:{config.mongoPw}@emails.443qzuu.mongodb.net/?retryWrites=true&w=majority"
@@ -24,15 +26,30 @@ except Exception as e:
     print(e)
 
 messages = gmail.get_unread_inbox()
-
+print(f"{len(messages)} Unread messages retrieved")
+index = 0
 for message in messages:
-    dataEntry = {
-        "from": message.sender,
-        "subject": message.subject,
-        "date": message.date,
-        "body": message.plain,
-    }
-    collection.insert_one(dataEntry)
+    from_email = re.search(r'<([^>]+)>', message.sender).group(1)
+    matching_newsletter = None
+
+    
+    for newsletter_email in newsletters.email_from_mapping:
+        if from_email.lower() in newsletter_email.lower():
+            matching_newsletter = newsletters.email_from_mapping[newsletter_email]
+            print(matching_newsletter)
+            break
+
+    if matching_newsletter:
+        data_entry = {
+            "from": matching_newsletter,
+            "subject": message.subject,
+            "date": message.date,
+            "body": message.plain,
+        }
+
+        collection.insert_one(data_entry)
+        index += 1
     message.mark_as_read()
 
 client.close()
+print(f"{index} records successfully added to the database")
