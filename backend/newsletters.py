@@ -28,6 +28,9 @@ newsletter_patterns = {
     "Milk Road": [
         r"Sponsored by: (.+)",
     ],
+    "Investing Journal": [
+        r"Sponsored by: (.+)",
+    ],
     "Payload": [
         r"Sponsored by: (.+)",
     ],
