@@ -17,6 +17,7 @@ all_newsletters = {
 newsletter_patterns = {
     "Barbend": [
         r"This newsletter is sponsored by (.+?)\.",
+        r"Today’s newsletter is presented by (.+?)\.",
     ],
     "Bullseye": [
         r"Sponsored by: (.+)",
