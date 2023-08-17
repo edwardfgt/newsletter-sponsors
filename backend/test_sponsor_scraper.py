@@ -1,6 +1,6 @@
 import re
 from newsletters import all_newsletters, newsletter_patterns
-from sponsorScraper import find_sponsor
+from sponsor_scraper import find_sponsor
 
 long_string = """
 View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/4366494e-fade-4a91-b532-252544249306/Momentous_Logo_Newsletter.png)
