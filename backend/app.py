@@ -25,7 +25,12 @@ for record in all_records:
     body = record.get('body', '')
 
     conversation = [
-        {"role": "user", "content": f"Please read this email sent from {newsletter} and identify the sponsor, only return a single string with the sponsor companies name:\n{body}"}
+        {"role": "user", "content": f"""Please read this email sent from {newsletter} and identify the sponsor.
+        \n Make sure that you only return a single string with the sponsor companies name and no additional filler.
+        \n Make sure that you do not return the same name as the newsletter name, the sponsor must be a different company.
+        \n If there is no sponsor, simply say - no sponsor found
+        \n The email copy to scrape is below:
+        \n {body}"""}
     ]
 
     chat_completion = openai.ChatCompletion.create(
