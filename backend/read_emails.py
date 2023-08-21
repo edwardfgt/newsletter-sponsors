@@ -45,6 +45,7 @@ for message in messages:
             "subject": message.subject,
             "date": message.date,
             "body": message.plain,
+            "sponsor": "Pending",
         }
 
         collection.insert_one(data_entry)
