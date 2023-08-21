@@ -15,7 +15,7 @@ What’s up everyone! If anyone here is an accredited investor or qualified purc
 """
 
 
-def find_sponsor(newsletter_name, long_string):
+def find_sponsor(long_string):
     for pattern in newsletter_patterns:
         match = re.search(pattern, long_string)
         if match:
@@ -25,8 +25,10 @@ def find_sponsor(newsletter_name, long_string):
 
 newsletter_name = "Exec Sum"
 
-sponsor = find_sponsor(newsletter_name, long_string)
+sponsor = find_sponsor(long_string)
 if sponsor:
     print(f"Sponsor: {sponsor}")
 else:
     print("Sponsor not found.")
+
+
