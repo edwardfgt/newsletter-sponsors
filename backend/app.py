@@ -19,7 +19,7 @@ for record in all_records:
         collection.update_one({"_id": record["_id"]}, {"$set": {"sponsor": "no sponsor found"}})
         print('No Sponsor Found')
     else:
-        #collection.update_one({"_id": record["_id"]}, {"$set": {"sponsor": sponsor_result}})
+        collection.update_one({"_id": record["_id"]}, {"$set": {"sponsor": sponsor_result}})
         print(f"Identified sponsor for {record['from']}: {sponsor_result}")
 
 client.close()

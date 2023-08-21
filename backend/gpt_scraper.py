@@ -11,7 +11,7 @@ def identify_sponsor(record):
         {
             "role": "user",
             "content": f"""Please read this email sent from {newsletter} and identify the sponsor.
-            \n Make sure that you only return a single string with the sponsor company's name and no additional text.
+            \n Make sure that you only return the sponsor company's name, DO NOT INCLUDE ANY OTHER WORDS.
             \n Make sure that you do not return the same name as the newsletter name, the sponsor must be a different company.
             \n If there is no sponsor, simply say - no sponsor found
             \n The email copy to scrape is below:
@@ -20,7 +20,7 @@ def identify_sponsor(record):
     ]
 
     chat_completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-16k",
         messages=conversation
     )
 
