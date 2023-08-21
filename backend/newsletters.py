@@ -11,6 +11,7 @@ all_newsletters = {
     "news@execsum.co": "Exec Sum",
     "press@shortsqueez.co": "Short Squeez",
     "theblueprint@mail.readtheblueprint.com": "The Blueprint",
+    "news@newsletter.importantnotimportant.com": "Important Not Important",
 }
 
 
@@ -47,6 +48,9 @@ newsletter_patterns = {
         r"Sponsored by: (.+)",
     ],
     "The Blueprint": [
+        r"Sponsored by: (.+)",
+    ],
+    "Important Not Important": [
         r"Sponsored by: (.+)",
     ],
     
