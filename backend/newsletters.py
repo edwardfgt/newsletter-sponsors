@@ -2,8 +2,6 @@
 
 all_newsletters = {
     "barbendnewsletter@mail2.barbend.com": "Barbend",
-    "jeffs-bullseye@b.bullseyeoptiontrading.com": "Bullseye",
-    "Thomas@heydink.com": "The Dink",
     "newsletter@mail.milkroad.com": "Milk Road",
     "investingjournal@mail.beehiiv.com": "Investing Journal",
     "general@mail.payloadspace.com": "Payload",
@@ -15,44 +13,12 @@ all_newsletters = {
 }
 
 
-newsletter_patterns = {
-    "Barbend": [
+newsletter_patterns = [
         r"This newsletter is sponsored by (.+?)\.",
-        r"Today’s newsletter is presented by (.+?)\.",
-    ],
-    "Bullseye": [
+        r"Today’s BarBend Newsletter is presented by ([A-Za-z0-9\s]+)\.",
+        r"Today’s newsletter is presented by ([A-Za-z0-9\s]+)\.",
         r"Sponsored by: (.+)",
-    ],
-    "The Dink": [
-        r"Sponsored by: (.+)",
-    ],
-    "Milk Road": [
-        r"Sponsored by: (.+)",
-    ],
-    "Investing Journal": [
-        r"Sponsored by: (.+)",
-    ],
-    "Payload": [
-        r"Sponsored by: (.+)",
-    ],
-    "Bullseye": [
-        r"Sponsored by: (.+)",
-    ],
-    "Even The Odds": [
-        r"Sponsored by: (.+)",
-    ],
-    "Exec Sum": [
-        r"Sponsored by: (.+)",
-    ],
-    "Short Squeez": [
-        r"Sponsored by: (.+)",
-    ],
-    "The Blueprint": [
-        r"Sponsored by: (.+)",
-    ],
-    "Important Not Important": [
-        r"Sponsored by: (.+)",
-    ],
-    
-}
-
+        r"today’s sponsor,\s*\[(.*?)\]\(https:\/\/prf\.hn\/click\/[^\)]+\)",
+        r"A Message From ([A-Za-z0-9\s]+)\.",
+        r"A Message From Litquidity & ([A-Za-z0-9\s&]+)\."
+]
