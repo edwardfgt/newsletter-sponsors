@@ -46,6 +46,7 @@ for message in messages:
             "date": message.date,
             "body": message.plain,
             "sponsor": "Pending",
+            'exported': False,
         }
 
         collection.insert_one(data_entry)

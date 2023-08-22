@@ -6,11 +6,9 @@ uri = f"mongodb+srv://Edward:{config.mongoPw}@emails.443qzuu.mongodb.net/?retryW
 client = MongoClient(uri)
 db = client.sponsorScraper
 collection = db.Emails 
-emails = collection.find()
-
+unexported_emails = collection.find({'exported': False})
 
 def update_sheet(emails):
-
     sa = gspread.service_account(filename="sheets_secret.json")
     sh = sa.open("Email Sponsors")
     wks = sh.worksheet("Sponsors")
@@ -18,7 +16,8 @@ def update_sheet(emails):
     for email in emails:
         row = [email['date'], email['from'], email['sponsor']]
         wks.append_row(row)
+        collection.update_one({'_id': email['_id']}, {'$set': {'exported': True}})
 
 
 
-update_sheet(emails)
+update_sheet(unexported_emails)
