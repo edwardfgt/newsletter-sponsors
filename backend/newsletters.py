@@ -16,4 +16,5 @@ all_newsletters = {
     "bensbites@mail.bensbites.co": "Ben's Bites",
     "Squad@thedailyupside.com": "The Daily Upside",
     "jeffs-bullseye@b.bullseyeoptiontrading.com": "Bullseye Trades",
+    "newsletter@internationalintrigue.io": "International Intrigue",
 }
