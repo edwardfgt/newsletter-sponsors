@@ -10,6 +10,8 @@ all_newsletters = {
     "press@shortsqueez.co": "Short Squeez",
     "theblueprint@mail.readtheblueprint.com": "The Blueprint",
     "news@newsletter.importantnotimportant.com": "Important Not Important",
+    "news@thehustle.co": "The Hustle",
+    "swaggystocks@mail.beehiiv.com": "Swaggy Stonks",
 }
 
 
