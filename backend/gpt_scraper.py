@@ -1,9 +1,8 @@
 import openai
 import config
 
-openai.api_key = config.gpt
-
 def identify_sponsor(record):
+    openai.api_key = config.gpt
     newsletter = record.get('from', '')
     body = record.get('body', '')
 

@@ -1,4 +1,8 @@
 from pymongo.mongo_client import MongoClient
+from simplegmail import Gmail
+from simplegmail.query import construct_query
+import re
+import newsletters
 import config
 import openai
 from gpt_scraper import identify_sponsor
@@ -17,13 +21,14 @@ collection = db.Emails
 
 print("App Started")
 print("------- Reading Emails -------")
-read_emails(uri, client, db, collection)
+read_emails(collection)
 print("------- Scraping Sponsors -------")
-scrape_all_emails(uri, client, db , collection)
+scrape_all_emails(collection)
 print("------- Cleaning DB -------")
-clean_database(uri, client, db, collection)
+clean_database(collection)
 print("-------Updating Sheet -------")
-update_sheet(uri, client, db, collection)
+update_sheet(collection)
+client.close()
 print("App Complete")
 
 

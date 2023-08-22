@@ -3,11 +3,8 @@ import config
 import openai
 from gpt_scraper import identify_sponsor
 
-def scrape_all_emails(uri, client, db, collection):
+def scrape_all_emails(collection):
     openai.api_key = config.gpt
-    client = MongoClient(uri)
-    db = client.sponsorScraper
-    collection = db.Emails 
 
     all_records = collection.find({"sponsor": "Pending"})
 
@@ -20,5 +17,3 @@ def scrape_all_emails(uri, client, db, collection):
         else:
             collection.update_one({"_id": record["_id"]}, {"$set": {"sponsor": sponsor_result}})
             print(f"Identified sponsor for {record['from']}: {sponsor_result}")
-
-    client.close()

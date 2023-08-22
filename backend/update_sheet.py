@@ -1,8 +1,7 @@
 import gspread
 from pymongo.mongo_client import MongoClient
-import config
 
-def update_sheet(uri, client, db, collection):
+def update_sheet(collection):
     emails = collection.find({'exported': False})
     sa = gspread.service_account(filename="sheets_secret.json")
     sh = sa.open("Email Sponsors")
