@@ -13,4 +13,7 @@ all_newsletters = {
     "news@thehustle.co": "The Hustle",
     "swaggystocks@mail.beehiiv.com": "Swaggy Stonks",
     "crew@morningbrew.com": "Morning Brew",
+    "bensbites@mail.bensbites.co": "Ben's Bites",
+    "Squad@thedailyupside.com": "The Daily Upside",
+    "jeffs-bullseye@b.bullseyeoptiontrading.com": "Bullseye Trades",
 }
