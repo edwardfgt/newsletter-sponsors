@@ -3,10 +3,8 @@ import config
 import openai
 from gpt_scraper import identify_sponsor
 
-def scrape_all_emails():
+def scrape_all_emails(uri, client, db, collection):
     openai.api_key = config.gpt
-
-    uri = f"mongodb+srv://Edward:{config.mongoPw}@emails.443qzuu.mongodb.net/?retryWrites=true&w=majority"
     client = MongoClient(uri)
     db = client.sponsorScraper
     collection = db.Emails 

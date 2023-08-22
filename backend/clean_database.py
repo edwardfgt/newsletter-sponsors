@@ -2,8 +2,6 @@ from pymongo.mongo_client import MongoClient
 import config
 
 
-uri = f"mongodb+srv://Edward:{config.mongoPw}@emails.443qzuu.mongodb.net/?retryWrites=true&w=majority"
-
 #Connect to Mongo and Gmail API
 client = MongoClient(uri)
 

@@ -5,9 +5,7 @@ import config
 import newsletters
 import re
 
-def read_emails():
-    uri = f"mongodb+srv://Edward:{config.mongoPw}@emails.443qzuu.mongodb.net/?retryWrites=true&w=majority"
-
+def read_emails(uri, client, db, collection):
     # Connect to Mongo and Gmail API
     client = MongoClient(uri)
     gmail = Gmail()

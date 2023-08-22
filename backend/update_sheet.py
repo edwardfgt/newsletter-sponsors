@@ -2,13 +2,8 @@ import gspread
 from pymongo.mongo_client import MongoClient
 import config
 
-uri = f"mongodb+srv://Edward:{config.mongoPw}@emails.443qzuu.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri)
-db = client.sponsorScraper
-collection = db.Emails 
-unexported_emails = collection.find({'exported': False})
-
-def update_sheet(emails):
+def update_sheet(uri, client, db, collection):
+    emails = collection.find({'exported': False})
     sa = gspread.service_account(filename="sheets_secret.json")
     sh = sa.open("Email Sponsors")
     wks = sh.worksheet("Sponsors")
@@ -19,5 +14,3 @@ def update_sheet(emails):
         collection.update_one({'_id': email['_id']}, {'$set': {'exported': True}})
 
 
-
-update_sheet(unexported_emails)
