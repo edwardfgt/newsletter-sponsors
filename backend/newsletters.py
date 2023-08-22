@@ -12,15 +12,5 @@ all_newsletters = {
     "news@newsletter.importantnotimportant.com": "Important Not Important",
     "news@thehustle.co": "The Hustle",
     "swaggystocks@mail.beehiiv.com": "Swaggy Stonks",
+    "crew@morningbrew.com": "Morning Brew",
 }
-
-
-newsletter_patterns = [
-        r"This newsletter is sponsored by (.+?)\.",
-        r"Today’s BarBend Newsletter is presented by ([A-Za-z0-9\s]+)\.",
-        r"Today’s newsletter is presented by ([A-Za-z0-9\s]+)\.",
-        r"Sponsored by: (.+)",
-        r"today’s sponsor,\s*\[(.*?)\]\(https:\/\/prf\.hn\/click\/[^\)]+\)",
-        r"A Message From ([A-Za-z0-9\s]+)\.",
-        r"A Message From Litquidity & ([A-Za-z0-9\s&]+)\."
-]
