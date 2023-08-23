@@ -1,2 +1,6 @@
 /backend/client_secret.json
 /backend/gmail_token.json
+/backend/config.py
+/backend/sheets_secret.json
+/backend/__pycache__/
+/backend/.pytest_cache/

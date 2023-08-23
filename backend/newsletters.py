@@ -17,4 +17,8 @@ all_newsletters = {
     "Squad@thedailyupside.com": "The Daily Upside",
     "jeffs-bullseye@b.bullseyeoptiontrading.com": "Bullseye Trades",
     "newsletter@internationalintrigue.io": "International Intrigue",
+    "invest@mail.beehiiv.com": "Digital Asset Investor",
+    "blocmates@mail.beehiiv.com": "The Ape Enclosure",
+    "wealth2@mail.beehiiv.com": "wealth^2",
+    "web3adv@mail.beehiiv.com": "web3 adventures",
 }
