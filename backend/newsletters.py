@@ -20,5 +20,9 @@ all_newsletters = {
     "invest@mail.beehiiv.com": "Digital Asset Investor",
     "blocmates@mail.beehiiv.com": "The Ape Enclosure",
     "wealth2@mail.beehiiv.com": "wealth^2",
-    "web3adv@mail.beehiiv.com": "web3 adventures",
+    "joe@readthejoe.com": "The Average Joe",
+    "sahil@sahilbloom.com": "Sahil Bloom's Curiosity Chronicle",
+    "dailydough@mail.beehiiv.com": "Daily Dough",
+    "moneyfittmorning@moneyfitt.co": "MoneyFitt Morning",
+    "brian@brianferoldi.com": "Long-Term Mindset",
 }
