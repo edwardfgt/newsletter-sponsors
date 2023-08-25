@@ -25,4 +25,7 @@ all_newsletters = {
     "dailydough@mail.beehiiv.com": "Daily Dough",
     "moneyfittmorning@moneyfitt.co": "MoneyFitt Morning",
     "brian@brianferoldi.com": "Long-Term Mindset",
+    "yolo@nftevening.com": "NFTevening",
+    "hello@marketbriefs.com": "Market Briefs",
+    "daily@chartr.co>": "Chartr",
 }
