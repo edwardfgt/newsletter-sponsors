@@ -18,7 +18,6 @@ def read_emails(collection):
         for newsletter_email in newsletters.all_newsletters:
             if from_email.lower() in newsletter_email.lower():
                 matching_newsletter = newsletters.all_newsletters[newsletter_email]
-                print(matching_newsletter)
                 break
 
         if matching_newsletter:
