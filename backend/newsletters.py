@@ -1,31 +1,108 @@
-#Current Scraped Newsletters
+#Current scraped newsletters
 
 all_newsletters = {
-    "barbendnewsletter@mail2.barbend.com": "Barbend",
-    "newsletter@mail.milkroad.com": "Milk Road",
-    "investingjournal@mail.beehiiv.com": "Investing Journal",
-    "general@mail.payloadspace.com": "Payload",
-    "eventheodds@mail.beehiiv.com": "Even The Odds",
-    "news@execsum.co": "Exec Sum",
-    "press@shortsqueez.co": "Short Squeez",
-    "theblueprint@mail.readtheblueprint.com": "The Blueprint",
-    "news@newsletter.importantnotimportant.com": "Important Not Important",
-    "news@thehustle.co": "The Hustle",
-    "swaggystocks@mail.beehiiv.com": "Swaggy Stonks",
-    "crew@morningbrew.com": "Morning Brew",
-    "bensbites@mail.bensbites.co": "Ben's Bites",
-    "Squad@thedailyupside.com": "The Daily Upside",
-    "jeffs-bullseye@b.bullseyeoptiontrading.com": "Bullseye Trades",
-    "newsletter@internationalintrigue.io": "International Intrigue",
-    "invest@mail.beehiiv.com": "Digital Asset Investor",
-    "blocmates@mail.beehiiv.com": "The Ape Enclosure",
-    "wealth2@mail.beehiiv.com": "wealth^2",
-    "joe@readthejoe.com": "The Average Joe",
-    "sahil@sahilbloom.com": "Sahil Bloom's Curiosity Chronicle",
-    "dailydough@mail.beehiiv.com": "Daily Dough",
-    "moneyfittmorning@moneyfitt.co": "MoneyFitt Morning",
-    "brian@brianferoldi.com": "Long-Term Mindset",
-    "yolo@nftevening.com": "NFTevening",
-    "hello@marketbriefs.com": "Market Briefs",
-    "daily@chartr.co>": "Chartr",
+    "barbendnewsletter@mail2.barbend.com": {
+        "name": "Barbend",
+        "industry": "Fitness"
+    },
+    "newsletter@mail.milkroad.com": {
+        "name": "Milk Road",
+        "industry": "Crypto"
+    },
+    "general@mail.payloadspace.com": {
+        "name": "Payload",
+        "industry": "Space"
+    },
+    "eventheodds@mail.beehiiv.com": {
+        "name": "Even The Odds",
+        "industry": "Sports Betting"
+    },
+    "news@execsum.co": {
+        "name": "Exec Sum",
+        "industry": "Investing"
+    },
+    "press@shortsqueez.co": {
+        "name": "Short Squeez",
+        "industry": "Investing"
+    },
+    "theblueprint@mail.readtheblueprint.com": {
+        "name": "The Blueprint",
+        "industry": "Investing"
+    },
+    "news@newsletter.importantnotimportant.com": {
+        "name": "Important Not Important",
+        "industry": "Science"
+    },
+    "news@thehustle.co": {
+        "name": "The Hustle",
+        "industry": "Business"
+    },
+    "swaggystocks@mail.beehiiv.com": {
+        "name": "Swaggy Stonks",
+        "industry": "Investing"
+    },
+    "crew@morningbrew.com": {
+        "name": "Morning Brew",
+        "industry": "Investing"
+    },
+    "bensbites@mail.bensbites.co": {
+        "name": "Ben's Bites",
+        "industry": "AI"
+    },
+    "Squad@thedailyupside.com": {
+        "name": "The Daily Upside",
+        "industry": "Investing"
+    },
+    "jeffs-bullseye@b.bullseyeoptiontrading.com": {
+        "name": "Bullseye Trades",
+        "industry": "Investing"
+    },
+    "newsletter@internationalintrigue.io": {
+        "name": "International Intrigue",
+        "industry": "Geopolitics"
+    },
+    "invest@mail.beehiiv.com": {
+        "name": "Digital Asset Investor",
+        "industry": "Investing"
+    },
+    "blocmates@mail.beehiiv.com": {
+        "name": "The Ape Enclosure",
+        "industry": "Crypto"
+    },
+    "wealth2@mail.beehiiv.com": {
+        "name": "wealth^2",
+        "industry": "Investing"
+    },
+    "joe@readthejoe.com": {
+        "name": "The Average Joe",
+        "industry": "Business"
+    },
+    "sahil@sahilbloom.com": {
+        "name": "Sahil Bloom's Curiosity Chronicle",
+        "industry": "Business"
+    },
+    "dailydough@mail.beehiiv.com": {
+        "name": "Daily Dough",
+        "industry": "Investing"
+    },
+    "moneyfittmorning@moneyfitt.co": {
+        "name": "MoneyFitt Morning",
+        "industry": "Investing"
+    },
+    "brian@brianferoldi.com": {
+        "name": "Long-Term Mindset",
+        "industry": "Investing"
+    },
+    "yolo@nftevening.com": {
+        "name": "NFTevening",
+        "industry": "Crypto"
+    },
+    "hello@marketbriefs.com": {
+        "name": "Market Briefs",
+        "industry": "Investing"
+    },
+    "daily@chartr.co>": {
+        "name": "Chartr",
+        "industry": "Business"
+    },
 }

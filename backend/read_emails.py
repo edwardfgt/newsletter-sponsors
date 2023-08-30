@@ -22,7 +22,8 @@ def read_emails(collection):
 
         if matching_newsletter:
             data_entry = {
-                "from": matching_newsletter,
+                "from": matching_newsletter["name"],
+                "industry": matching_newsletter["industry"],
                 "subject": message.subject,
                 "date": message.date,
                 "body": message.plain,

@@ -8,7 +8,7 @@ def update_sheet(collection):
     wks = sh.worksheet("Sponsors")
 
     for email in emails:
-        row = [email['date'], email['from'], email['sponsor']]
+        row = [email['date'], email['from'], email['sponsor'], email['industry']]
         wks.append_row(row)
         collection.update_one({'_id': email['_id']}, {'$set': {'exported': True}})
 
