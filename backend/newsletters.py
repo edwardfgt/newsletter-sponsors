@@ -101,8 +101,68 @@ all_newsletters = {
         "name": "Market Briefs",
         "industry": "Investing"
     },
-    "daily@chartr.co>": {
+    "daily@chartr.co": {
         "name": "Chartr",
         "industry": "Business"
+    },
+    "editor@themoneymaniac.com": {
+        "name": "The Money Maniac",
+        "industry": "Investing"
+    },
+    "zack@zackswire.com": {
+        "name": "How We Scale",
+        "industry": "Business"
+    },
+    "hello@mattweidert.com": {
+        "name": "Matt Weidert",
+        "industry": "Investing"
+    },
+    "theoffersheet@mail.beehiiv.com": {
+        "name": "The Offer Sheet",
+        "industry": "Investing"
+    },
+    "d@trends.vc": {
+        "name": "Trends.vc",
+        "industry": "Investing"
+    },
+    "getramen@mail.getramen.co": {
+        "name": "Get Ramen",
+        "industry": "Investing"
+    },
+    "alexander@mail.bullstreettalknewsletter.com": {
+        "name": "Bull Street Talk",
+        "industry": "Investing"
+    },
+    "smartrdaily@gmail.com": {
+        "name": "Smartr",
+        "industry": "Business"
+    },
+    "investlikeahoneybee@mail.beehiiv.com": {
+        "name": "Invest Like A Honeybee",
+        "industry": "Investing"
+    },
+    "newsletter@mail.rektradar.com": {
+        "name": "Rekt Radar",
+        "industry": "Crypto"
+    },
+    "newsletter@chipotlemoney.com": {
+        "name": "Chipotle Money",
+        "industry": "Investing"
+    },
+    "dan@tldrnewsletter.com": {
+        "name": "TLDR",
+        "industry": "Tech"
+    },
+    "bot-eat-brain@mail.beehiiv.com": {
+        "name": "Bot Eat Brain",
+        "industry": "AI"
+    },
+    "stefan@alts.co": {
+        "name": "Alts.co",
+        "industry": "Investing"
+    },
+    "wallstreetoasis@wallstreetoasis.com": {
+        "name": "The Daily Peel",
+        "industry": "Investing"
     },
 }
