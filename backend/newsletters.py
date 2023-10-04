@@ -65,14 +65,16 @@ all_newsletters = {
         "name": "Digital Asset Investor",
         "industry": "Investing"
     },
-    "blocmates@mail.beehiiv.com": {
-        "name": "The Ape Enclosure",
-        "industry": "Crypto"
-    },
-    "wealth2@mail.beehiiv.com": {
-        "name": "wealth^2",
-        "industry": "Investing"
-    },
+    #Not running ads
+    # "blocmates@mail.beehiiv.com": {
+    #     "name": "The Ape Enclosure",
+    #     "industry": "Crypto"
+    # },
+    #Not running ads
+    # "wealth2@mail.beehiiv.com": {
+    #     "name": "wealth^2",
+    #     "industry": "Investing"
+    # },
     "joe@readthejoe.com": {
         "name": "The Average Joe",
         "industry": "Business"
@@ -89,10 +91,11 @@ all_newsletters = {
         "name": "MoneyFitt Morning",
         "industry": "Investing"
     },
-    "brian@brianferoldi.com": {
-        "name": "Long-Term Mindset",
-        "industry": "Investing"
-    },
+    #Not running ads
+    # "brian@brianferoldi.com": {
+    #     "name": "Long-Term Mindset",
+    #     "industry": "Investing"
+    # },
     "yolo@nftevening.com": {
         "name": "NFTevening",
         "industry": "Crypto"
@@ -109,10 +112,11 @@ all_newsletters = {
         "name": "The Money Maniac",
         "industry": "Investing"
     },
-    "zack@zackswire.com": {
-        "name": "How We Scale",
-        "industry": "Business"
-    },
+    #Not running ads
+    # "zack@zackswire.com": {
+    #     "name": "How We Scale",
+    #     "industry": "Business"
+    # },
     "hello@mattweidert.com": {
         "name": "Matt Weidert",
         "industry": "Investing"
@@ -125,30 +129,34 @@ all_newsletters = {
         "name": "Trends.vc",
         "industry": "Investing"
     },
-    "getramen@mail.getramen.co": {
-        "name": "Get Ramen",
-        "industry": "Investing"
-    },
-    "alexander@mail.bullstreettalknewsletter.com": {
-        "name": "Bull Street Talk",
-        "industry": "Investing"
-    },
-    "smartrdaily@gmail.com": {
-        "name": "Smartr",
-        "industry": "Business"
-    },
-    "investlikeahoneybee@mail.beehiiv.com": {
-        "name": "Invest Like A Honeybee",
-        "industry": "Investing"
-    },
+    #Inactive
+    # "getramen@mail.getramen.co": {
+    #     "name": "Get Ramen",
+    #     "industry": "Investing"
+    # },
+    # "alexander@mail.bullstreettalknewsletter.com": {
+    #     "name": "Bull Street Talk",
+    #     "industry": "Investing"
+    # },
+    #Not running ads
+    # "smartrdaily@gmail.com": {
+    #     "name": "Smartr",
+    #     "industry": "Business"
+    # },
+    #Not running ads
+    # "investlikeahoneybee@mail.beehiiv.com": {
+    #     "name": "Invest Like A Honeybee",
+    #     "industry": "Investing"
+    # },
     "newsletter@mail.rektradar.com": {
         "name": "Rekt Radar",
         "industry": "Crypto"
     },
-    "newsletter@chipotlemoney.com": {
-        "name": "Chipotle Money",
-        "industry": "Investing"
-    },
+    #Not running ads
+    # "newsletter@chipotlemoney.com": {
+    #     "name": "Chipotle Money",
+    #     "industry": "Investing"
+    # },
     "dan@tldrnewsletter.com": {
         "name": "TLDR",
         "industry": "Tech"
@@ -165,4 +173,21 @@ all_newsletters = {
         "name": "The Daily Peel",
         "industry": "Investing"
     },
+    "news@mail.futureparty.com": {
+        "name": "TheFutureParty",
+        "industry": "Business"
+    },
+    "westudymarkets@mail.beehiiv.com": {
+        "name": "We Study Markets",
+        "industry": "Investing"
+    },
+    "rollup@mail.beehiiv.com": {
+        "name": "The Rollup",
+        "industry": "Investing"
+    },
+    "mail@www.blackswanstreet.com": {
+        "name": "Black Swan Street",
+        "industry": "Investing"
+    },
+
 }

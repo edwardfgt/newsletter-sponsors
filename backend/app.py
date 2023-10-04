@@ -19,10 +19,10 @@ db = client.sponsorScraper
 collection = db.Emails
 
 
-print("App Started")
-print("------- Reading Emails -------")
-read_emails(collection)
-print("------- Scraping Sponsors -------")
+# print("App Started")
+# print("------- Reading Emails -------")
+# read_emails(collection)
+# print("------- Scraping Sponsors -------")
 scrape_all_emails(collection)
 print("------- Cleaning DB -------")
 clean_database(collection)
