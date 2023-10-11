@@ -189,5 +189,41 @@ all_newsletters = {
         "name": "Black Swan Street",
         "industry": "Investing"
     },
+    "hello@readthepeak.com": {
+        "name": "The Peak",
+        "industry": "Investing"
+    },
+    "8ball@substack.com": {
+        "name": "8ball",
+        "industry": "Investing"
+    },
+    "connie@strictlyvc.com": {
+        "name": "StrictlyVC",
+        "industry": "Investing"
+    },
+    "homescreen@mail.launchhouse.com": {
+        "name": "Homescreen",
+        "industry": "Investing"
+    },
+    "huddleup@substack.com": {
+        "name": "Huddle Up",
+        "industry": "Investing"
+    },
+    "josh@joshspector.com": {
+        "name": "For The Interested",
+        "industry": "Investing"
+    },
+    "help@gritcap.io": {
+        "name": "Grit Capital",
+        "industry": "Investing"
+    },
+    "jay@creatorscience.com": {
+        "name": "Creator Science",
+        "industry": "Investing"
+    },
+    "chitchatmoney@substack.com": {
+        "name": "Chit Chat Money",
+        "industry": "Investing"
+    },
 
 }
